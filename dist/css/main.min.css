@@ -5120,28 +5120,27 @@ body {
   transform: translateX(-50%);
   width: var(--wolf-size);
   height: var(--wolf-size);
-  background-position: center center;
-  background-image: url("../images/wolk_rс.png");
+  background-image: url("../images/wolf-sprite.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .game #wolf.rc {
-  background-image: url("../images/wolk_rс.png");
+  background-position: 60.2% center;
 }
 .game #wolf.lc {
-  background-image: url("../images/wolk_lс.png");
+  background-position: 0% center;
 }
 .game #wolf.ru {
-  background-image: url("../images/wolk_ru.png");
+  background-position: 100.4% center;
 }
 .game #wolf.rd {
-  background-image: url("../images/wolk_rd.png");
+  background-position: 80% center;
 }
 .game #wolf.lu {
-  background-image: url("../images/wolk_lu.png");
+  background-position: 40% center;
 }
 .game #wolf.ld {
-  background-image: url("../images/wolk_ld.png");
+  background-position: 19.6% center;
 }
 @media (max-width: 376px) {
   .game #wolf {
