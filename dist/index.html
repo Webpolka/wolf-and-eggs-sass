@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <style>html { opacity: 0; }</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Волк и Яица</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">  
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/main.min.css">
+  
+</head>
+ 
+ 
+
+<body>
+  <div class="service-overlay"></div>
+  <div class="wrapper">
+    <header class="header">   
+</header>
+    <main class="page">
+      <div class="container">
+    <div class="game">
+        <div id="sun"></div>
+        <div id="score"><span>Спасено</span><b>0</b></div>
+        <div id="level"><span>Уровень</span><b>1</b></div>
+
+        <div id="chicken-left-up">
+            <div class="chicken-left-up__wrap">
+                <div class="chicken-left"></div>
+                <div class="pomost-left"></div>
+            </div>
+        </div>
+        <div id="CLU-touch"></div>
+
+        <div id="chicken-left-down">
+            <div class="chicken-left-down__wrap">
+                <div class="chicken-left"></div>
+                <div class="pomost-left"></div>
+            </div>
+        </div>
+        <div id="CLD-touch"></div>
+
+        <div id="chicken-right-up">
+            <div class="chicken-right-up__wrap">
+                <div class="chicken-right"></div>
+                <div class="pomost-right"></div>
+            </div>
+        </div>
+        <div id="CRU-touch"></div>
+
+        <div id="chicken-right-down">
+            <div class="chicken-right-down__wrap">
+                <div class="chicken-right"></div>
+                <div class="pomost-right"></div>
+            </div>
+        </div>
+        <div id="CRD-touch"></div>
+
+        <div id="wolf"></div>
+
+        <button id="pause">Пауза</button>
+        <div id="lives"></div>
+        <div class="game-place-lock"></div>
+    </div>
+</div>
+
+<audio src="../../static/crushed-egg.mp3" id="crash-sound" allow="autoplay"></audio>
+<audio src="../../static/layed-egg.mp3" id="layed-sound" allow="autoplay"></audio>
+<audio src="../../static/pause.mp3" id="pause-sound" allow="autoplay"></audio>
+<audio src="../../static/lost.mp3" id="lost-sound" allow="autoplay"></audio>
+<audio src="../../static/win.mp3" id="win-sound" allow="autoplay"></audio>
+
+
+    </main>
+    <footer class="footer">   
+</footer>
+  </div>
+  <script src="./js/main.min.js"></script>
+
+</body>
+
+</html>
